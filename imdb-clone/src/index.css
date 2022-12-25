@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ box-sizing: border-box;
+ list-style: none;
+ text-decoration: none;
+}
+
+a:visited {
+ color: var(--color-white)
+}
+
+a {
+ color: var(--color-white)
+}
+
+:root {
+ --color-bg: #0b0b0b;
+ --color-bg-variant: #252428;
+ --color-primary: #ffd000;
+ --color-primary-variant: #e7ca0f;
+ --color-white: rgb(255, 255, 255);
+ --color-light: rgba(255, 255, 255, 0.6);
+
+ --transition: all 400ms ease;
+
+ --containter-width-lg: 75%;
+ --container-width-md: 86%;
+ --container-width-sm: 90%;
+}
+
+html {
+ scroll-behavior: smooth;
+}
+
+body {
+ background-color: var(--color-bg);
+ color: var(--color-white);
+ font-family: 'Roboto', sans-serif;
+ line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5 {
+ font-weight: 500;
+}
+
+.movieContainer {
+ display: flex;
+ flex-wrap: nowrap;
+ overflow-x: auto;
+ width: var(--container-width-md);
+ margin: auto;
+ padding: 1.5rem ;
+ margin-bottom: 5rem;
+}
+
+.movieCard {
+ background-color: var(--color-bg-variant);
+ padding: 0.1rem 0.1rem 1.5rem 0.1rem;
+ margin: 0.2rem 0.5rem;
+}
+
+.movieCard p, h4 {
+ margin-left: 0.5rem;
+ margin-top: 0.2rem;
+}
+
+.movieHeader {
+ padding-left: 5rem;
+}
+
+.movieHeader h1 {
+ border-left: #ffd000 3.5px solid;
+ padding-left: 2.8rem;
+}
