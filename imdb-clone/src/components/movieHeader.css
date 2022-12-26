@@ -1,0 +1,8 @@
+.movieHeader {
+ padding-left: 5rem;
+}
+
+.movieHeader h1 {
+ border-left: #ffd000 3.5px solid;
+ padding-left: 2.8rem;
+}

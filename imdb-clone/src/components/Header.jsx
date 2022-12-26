@@ -16,6 +16,9 @@ function Header(props) {
       <Link to='./'>
       <h1 className='logo'>IMDb Clone</h1>
       </Link>
+      <Link to='/recent'>
+        <h4 className='menuItem'>Recently Viewed</h4>
+       </Link>
       <input 
        className='searchForm'
        value={props.value}
