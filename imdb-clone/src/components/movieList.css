@@ -1,27 +1,27 @@
-
 .movieContainer {
- display: flex;
- flex-wrap: nowrap;
- overflow-x: auto;
- width: var(--container-width-md);
- margin: auto;
- padding: 1.5rem ;
- margin-bottom: 12rem;
- align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: var(--container-width-md);
+  margin: auto;
+  padding: 1.5rem;
+  margin-bottom: 12rem;
+  align-items: center;
 }
 
 .movieCard {
- background-color: var(--color-bg-variant);
- padding: 0.1rem 0.1rem 1.5rem 0.1rem;
- margin: 0.2rem 0.5rem;
+  background-color: var(--color-bg-variant);
+  padding: 0.1rem 0.1rem 1.5rem 0.1rem;
+  margin: 0.2rem 0.5rem;
 }
 
-.movieCard p, h4 {
- margin-left: 0.5rem;
- margin-top: 0.2rem;
+.movieCard p,
+h4 {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
 }
 
 .movieCard:hover {
- box-shadow:0px 0px 0px 1px var(--color-light) inset;
- background-color:rgb(255, 255, 255, 0.2)
+  box-shadow: 0px 0px 0px 1px var(--color-light) inset;
+  background-color: rgb(255, 255, 255, 0.2);
 }

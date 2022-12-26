@@ -3,7 +3,7 @@ import "./movieList.css";
 import { AiFillStar } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import MovieHeader from "./MovieHeader";
-import imageNotFound from '../images/imageNotFound.jpg'
+import imageNotFound from "../images/imageNotFound.jpg";
 
 function MovieSearchList(props) {
   return (
@@ -17,7 +17,7 @@ function MovieSearchList(props) {
                 {movie.poster_path ? (
                   <img src={`https://image.tmdb.org/t/p/w185/${movie.poster_path}`} alt="poster" />
                 ) : (
-                  <img src={imageNotFound} alt="not found" width='185px' height='278px'/>
+                  <img src={imageNotFound} alt="not found" width="185px" height="278px" />
                 )}
                 <p>
                   <AiFillStar color="var(--color-primary)" />

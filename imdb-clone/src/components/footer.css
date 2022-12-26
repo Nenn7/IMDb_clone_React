@@ -1,12 +1,13 @@
 footer {
- display: flex;
- justify-content: space-between;
- padding: 2rem 4.5rem 0 4.5rem;
- height: 5.5rem;
- width: 100%;
- border-top: solid var(--color-light) 2px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4.5rem 0 4.5rem;
+  height: 5.5rem;
+  width: 100%;
+  border-top: solid var(--color-light) 2px;
 }
 
-footer > h3, p {
- font-weight: 300;
+footer > h3,
+p {
+  font-weight: 300;
 }
